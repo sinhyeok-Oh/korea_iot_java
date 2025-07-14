@@ -17,7 +17,7 @@ public class Book extends Item {
         super(id, name);
         this.isbn = isbn;
         this.author = author;
-        this.publisher = publisher;
+        this.publisher = this.publisher;
         this.publishYear = publishYear;
         this.price = price;
         this.stock = stock;
