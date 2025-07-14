@@ -57,7 +57,7 @@ class RobotClass implements Workable {
 // >> 구체적인 클래스를 직접 쓰지 말고, 인터페이스를 사용해서 느슨하게 연결!
 
 // 1) 잘못된 설계 예시 - MathBook의 구체적인 클래스에 의존
-// >> 다른 책으로 변경하려면 코드 자체를 수정  (유지보수정이 좋지 않음)
+// >> 다른 책으로 변경하려면 코드 자체를 수정  (유지보수성이 좋지 않음)
 class MathBook {
     void read() {
         System.out.println("수학책을 읽습니다.");
