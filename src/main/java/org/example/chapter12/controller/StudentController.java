@@ -64,10 +64,10 @@ public class StudentController {
     }
 
     // 학생 수정
-    public boolean updateStudent( StudentRequestDto dto) {
+    public boolean updateStudent(StudentRequestDto dto) {
 
         for (Student student: studentList) {
-            if (student.getStudentNumber() == dto.getStudentNumber()) {
+            if (student.getStudentNumber().equals(dto.getStudentNumber())) {
                 student.setName(dto.getName());
                 student.setAge(dto.getAge());
                 return true;
