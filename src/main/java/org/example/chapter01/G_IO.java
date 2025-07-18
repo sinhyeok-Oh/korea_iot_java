@@ -31,18 +31,18 @@ public class G_IO {
         // Scanner 변수명 = new Scanner(System.in);
 
         // [우항]
-        // new Scanner(입력받을 방엽);
+        // new Scanner(입력받을 방법);
         // : 새로운 스캐너를 생성
         // - System.in: 현재 실행되고 있는 프로그램(IDE) 의 콘솔에서 입력받음
 
         // [좌항]
-        // Scanner 타입 변수명
+        // Scanner타입 변수명
         // : 좌향의 Scanner 는 '프린트가 ' 라는 대표 명사
 
         Scanner iotScanner = new Scanner(System.in);
 
         // 2) 스캐너 실행
-        //- 스캐너명.next(); - 입력 내용을 문자열로 반환(개행 문자 인식 x)
+        // - 스캐너명.next(); - 입력 내용을 문자열로 반환(개행 문자 인식 x)
         // - 스캐너명.nextLine(); - 입력 후의 엔터까지 전체 라인을 문자열로 반환
 
         // +) 스캐너명.next 데이터타입(); : 각 타입의 데이터를 입력받을 수 있음
@@ -70,7 +70,7 @@ public class G_IO {
         // : 사용자가 Enter 키를 입력하면 개행문자가 입력됨
 
         // 1)nextInt(), nextDouble() 은 숫자만 가져감
-        //      - next +데이터타입()은 해당 데이터만 인식
+        //      - next + 데이터타입()은 해당 데이터만 인식
 
         //2) nextLine()은 줄 전체를 가져감
         //      - 키 (height) 입력 시 실제 Scanner 내부에는 키값 + 개행문자가 저장

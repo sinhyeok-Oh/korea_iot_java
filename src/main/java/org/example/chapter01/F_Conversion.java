@@ -16,7 +16,7 @@ public class F_Conversion {
               boolean(1)
          */
         // 1. 자동(묵시적) 형 변환
-        // : 작은 자료형을 큰 자료형으로 변환 (왼쪽에서 올느쪽)
+        // : 작은 자료형을 큰 자료형으로 변환 (왼쪽에서 오른쪽)
         byte smallBox = 10; // 1byte
         int bigBox = 10000; // 4byte
 
@@ -36,7 +36,7 @@ public class F_Conversion {
        // char f = e; - 묵시적 형 변환 불가 (char 는 2byte)
 
         // 2. 강제(명시적) 형 변환
-        // : 큰 자료형르 작은 자료형으로 변환 (오른쪽에서 왼쪽)
+        // : 큰 자료형을 작은 자료형으로 변환 (오른쪽에서 왼쪽)
 
         int intNumber = 1234;
         float floatNumber = intNumber;

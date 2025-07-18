@@ -4,7 +4,7 @@ public class C_Variable {
     public static void main(String[] args) {
         // === 변수 (Variable) === //
                 //: 데이터를 저장하는 공간
-                //- 데이터를 메몰에 저장하고 사용할 때의 공간
+                //- 데이터를 메모리에 저장하고 사용할 때의 공간
 
                 // 1. 변수 선언 : 메모리 공간 생성
                 // >> 데티어타입 변수명;
@@ -71,9 +71,10 @@ public class C_Variable {
                 // == 변수의 재할당 == //
                 int height = 170;
 
-                //뱐수의 재할당 : 변수명 = 변경할 값;
+                // 변수의 재할당 : 변수명 = 변경할 값;
                 height = 168;
-                // === 상우(Constant) === //
+
+                // === 상수(Constant) === //
                 // : 프로그램 싱행 동안 그 값이 변경되지 않는 변수
                 // >> 선언과 동시에 반드시 초기화가 이루어져야 함
 
@@ -90,7 +91,7 @@ public class C_Variable {
                 // === 변수(상수)명을 활용한 데티어값 호출 === //
                 int numberValue = 10;
 
-                // 변수명 호풀 시 변수(공간) 안의 데티어값이 출력
+                // 변수명 호풀 시 변수(공간) 안의 데이터값이 출력
                 System.out.println(numberValue);
 
     }
