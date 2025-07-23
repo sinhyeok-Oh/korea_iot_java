@@ -45,7 +45,7 @@ interface MyFunctionalInterface {
 * */
 
 // == 람다식 사용 예제 == //
-// 1) 기본 표현: 여러 개의 매개변수, 하나의 길행문
+// 1) 기본 표현: 여러 개의 매개변수, 하나의 실행문
 @FunctionalInterface
 interface Calculator {
     int add(int a, int b);
