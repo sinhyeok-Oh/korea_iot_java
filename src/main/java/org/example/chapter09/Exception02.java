@@ -20,7 +20,7 @@ package org.example.chapter09;
 
     cf) catch  블록
              : 특정 예외 타입이 발생했을 때 실행될 코드를 정의
-             - 다중 catch 브록으로 사용 가능( 여러 예외 처리 가능)
+             - 다중 catch 블록으로 사용 가능( 여러 예외 처리 가능)
  */
 public class Exception02 {
     public static void main(String[] args) {

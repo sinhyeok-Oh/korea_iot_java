@@ -89,7 +89,7 @@ public class D_Lambda {
         System.out.println("=== 람다식을 사용한 추상 메서드 구현 ===");
         Calculator calculator2 = (a, b) -> {
             int result = a + b;
-            return result; //  여러 줄 구현은 {} 샐략 불가!! (반환값도 반드시 return 사용)
+            return result; //  여러 줄 구현은 {} 생략 불가!! (반환값도 반드시 return 사용)
         };
         System.out.println("람다식 결과1: " + calculator2.add(4, 9));
 

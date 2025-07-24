@@ -24,7 +24,7 @@ package org.example.chapter09;
 
 // == 사용자 정의 예외 == //
 // : 자바의 Exception 클래스를 '상속' 받는 자식 클래스를 직접 정의
-class InvalidUserException  extends Exception {
+class InvalidUserException extends Exception {
     InvalidUserException(String massage) {
         super(massage); // Exception 클래스의 getMessage() 메서드 사용 가능
     }
