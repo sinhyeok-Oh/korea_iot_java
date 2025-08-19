@@ -9,7 +9,7 @@ public class B_Array {
         System.out.println(scores[2]);
         System.out.println(scores[4]);
 
-        // 1)for문을 상ㅇ하여 순서대로 출력
+        // 1)for문을 사용하여 순서대로 출력
         // : for의 초기화 변수를 인덱스 번호처럼 사용
         System.out.println("== for문 사용 ==");
 

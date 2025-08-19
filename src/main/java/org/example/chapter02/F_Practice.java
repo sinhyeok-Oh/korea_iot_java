@@ -24,7 +24,7 @@ public class F_Practice {
                 case "1":
                     System.out.println("회원 등록 기능입니다.");
                 case "2":
-                    System.out.println("회원 조호 기능입니다.");
+                    System.out.println("회원 조회 기능입니다.");
 
                     boolean isRun2 = true;
 
@@ -32,7 +32,7 @@ public class F_Practice {
                         System.out.println("[ 회원 조회 ]");
                         System.out.println("1. 회원 번호 조회");
                         System.out.println("2. 회원 이름으로 조회");
-                        System.out.println("b. 뒤로 가지");// back:뒤로가기
+                        System.out.println("b. 뒤로 가기");// back:뒤로가기
 
                         selectedMenu = sc.nextLine();
 
